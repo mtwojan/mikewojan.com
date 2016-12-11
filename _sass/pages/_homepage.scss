@@ -1,0 +1,33 @@
+.construction-content {
+  margin: 100px auto 0px;
+  padding: 0px 10px;
+  width: 50%;
+  text-align: center;
+  @include breakpoint($mq-medium) {
+    width: 100%;
+  }
+
+  p {
+    font-size: 1.4em;
+    font-weight: 300;
+    line-height: 1.4;
+  }
+}
+
+.mike-headshot {
+  width: 150px;
+}
+
+.social-icon {
+  display: inline;
+  margin: 0px 10px;
+  @include breakpoint($mq-small) {
+    margin: 0px 5px;
+  }
+
+  img {
+    @include breakpoint($mq-small) {
+      width: 40px;
+    }
+  }
+}
