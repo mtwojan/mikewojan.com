@@ -1,22 +1,83 @@
-.construction-content {
-  margin: 100px auto 0px;
-  padding: 0px 10px;
-  width: 50%;
+.intro-container {
   text-align: center;
+  background-color: #F9F9F9;
+  padding: 50px 0px;
+
+  button {
+    margin-top: 20px;
+    padding: 12px 15px;
+    border: 0px;
+    border-radius: 50px;
+    font-size: .9em;
+    color: #fff;
+    font-weight: 300;
+    background-color: #49AA8B;
+  }
+}
+
+.intro-content {
+  margin: 0 auto;
+  width: 45%;
+  display: flex;
+  align-items: center;
+
   @include breakpoint($mq-medium) {
     width: 100%;
+    display: block;
+    text-align: center;
   }
 
   p {
-    font-size: 1.4em;
+    text-align: left;
+    font-size: 1.2em;
     font-weight: 300;
-    line-height: 1.4;
+    line-height: 1.2;
+    margin: 0px;
   }
 }
 
-.mike-headshot {
-  width: 150px;
+.intro-image {
+  img{
+    width: 100px;
+  }
 }
+
+.intro-paragraph {
+  padding-left: 15px;
+}
+
+.process-container {
+  text-align: center;
+}
+
+.process-container {
+  padding: 20px 0px;
+}
+
+.process-row {
+  display: flex;
+  padding: 30px 0px;
+
+  img {
+    height: 120px;
+  }
+
+  @include breakpoint($mq-medium) {
+    display: block;
+  }
+}
+
+.process-block {
+  width: 25%;
+  padding: 10px 20px;
+
+  @include breakpoint($mq-medium) {
+    width: 100%;
+  }
+}
+
+
+
 
 .social-icon {
   display: inline;
