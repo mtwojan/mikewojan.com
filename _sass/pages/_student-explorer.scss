@@ -1,0 +1,18 @@
+.se-desktop-mockup {
+  padding: 40px 0px;
+  text-align: center;
+  img {
+    width: 700px;
+  }
+}
+
+.style-guide-images, .logo-creation-images {
+  text-align: center;
+  padding: 40px 0px;
+  img {
+    width: 500px;
+    @include breakpoint($mq-medium) {
+      width: 95%;
+    }
+  }
+}

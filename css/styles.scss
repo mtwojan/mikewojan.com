@@ -1,12 +1,12 @@
 ---
 ---
-
-@import 'base/normalize';
-@import 'base/layout';
 @import 'abstracts/variables';
+@import 'base/normalize';
 @import 'vendor/breakpoint/breakpoint';
+@import 'base/layout';
 @import 'base/typography';
 @import 'pages/homepage';
+@import 'pages/student-explorer';
 @import 'layout/header';
 @import 'layout/footer';
 @import 'layout/project-page';
