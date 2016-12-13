@@ -1,10 +1,12 @@
 body {
-  font-family: 'Roboto', sans-serif;
+  font-family: 'lato', sans-serif;
   font-size: 100%;
   color: $body-text;
 
   p {
     font-weight: 300;
+    font-size: 1.1em;
+    line-height: 1.3em;
   }
 }
 

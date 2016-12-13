@@ -5,7 +5,7 @@
 
   button {
     margin-top: 20px;
-    padding: 12px 15px;
+    padding: 15px 18px;
     border: 0px;
     border-radius: 50px;
     font-size: .9em;
@@ -29,10 +29,17 @@
 
   p {
     text-align: left;
-    font-size: 1.2em;
+    font-size: 1.3em;
     font-weight: 300;
     line-height: 1.2;
     margin: 0px;
+    padding-left: 15px;
+
+    @include breakpoint($mq-medium) {
+      text-align: center;
+      padding: 20px 20px;
+    }
+
   }
 }
 
@@ -43,7 +50,7 @@
 }
 
 .intro-paragraph {
-  padding-left: 15px;
+
 }
 
 .process-container {
@@ -73,6 +80,7 @@
 
   @include breakpoint($mq-medium) {
     width: 100%;
+    margin: 20px 0px;
   }
 }
 
