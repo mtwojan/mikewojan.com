@@ -4,8 +4,13 @@
   }
 }
 
+.wrapper {
+  margin: 0 auto;
+  max-width: 700px;
+}
+
 .project-intro-container {
-  background-color: #F9F9F9;
+  background-color: #F5F5F5;
   margin: 0 auto;
   padding: 40px 20px;
   text-align: center;
@@ -20,7 +25,7 @@
 }
 
 .project-intro-summary {
-  padding: 0px 180px;
+  // padding: 0px 180px;
 
   @include breakpoint($mq-medium) {
     width: 100%;
@@ -36,16 +41,10 @@
   }
 }
 
-.project-image {
-  img {
-    max-width: 100%;
-  }
-}
-
 //Fix this (redundant)
 .project-details-container{
   text-align: left;
-  padding: 0px 180px 30px;
+  // padding: 0px 180px 30px;
 
   @include breakpoint($mq-medium) {
     padding: 10px;
@@ -54,4 +53,8 @@
 
 .page-section {
   padding-top: 20px;
+}
+
+.page-section img{
+  margin: 20px 0px;
 }
