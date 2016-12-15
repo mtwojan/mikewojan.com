@@ -10,7 +10,7 @@
 }
 
 .project-intro-container {
-  background-color: #F5F5F5;
+  background-color: #F0F0F0;
   margin: 0 auto;
   padding: 40px 20px;
   text-align: center;
@@ -55,6 +55,14 @@
   padding-top: 20px;
 }
 
-.page-section img{
+.page-section img {
   margin: 20px 0px;
+}
+
+.spacer-image {
+  text-align: center;
+}
+
+.spacer-image img {
+  max-height: 500px;
 }
