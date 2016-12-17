@@ -37,7 +37,11 @@
     font-size: 1.5em;
     font-weight: 300;
     line-height: 1.5em;
-    font-family: lato;
+
+    @include breakpoint($mq-medium) {
+      font-size: 1.3em;
+    }
+
   }
 }
 
@@ -47,7 +51,7 @@
   // padding: 0px 180px 30px;
 
   @include breakpoint($mq-medium) {
-    padding: 10px;
+    padding: 10px 20px;
   }
 }
 

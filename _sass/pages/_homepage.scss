@@ -1,3 +1,8 @@
+.home-wrapper {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
 .intro-container {
   text-align: center;
   background-color: #F0F0F0;
@@ -40,7 +45,6 @@
       text-align: center;
       padding: 20px 20px;
     }
-
   }
 }
 
@@ -56,15 +60,12 @@
 
 .process-container {
   text-align: center;
-}
-
-.process-container {
-  padding: 20px 0px;
-}
-
-.process-row {
-  display: flex;
   padding: 30px 0px;
+}
+
+.process {
+  display: flex;
+  padding: 20px 0px;
 
   img {
     height: 120px;
@@ -78,18 +79,90 @@
 
 .process-block {
   width: 25%;
-  padding: 20px 20px;
+  padding: 0px 20px;
 
   @include breakpoint($mq-medium) {
     width: 100%;
     margin: 20px 0px;
     border: 2px solid #f3f3f3;
     border-radius: 5px;
+    padding: 30px;
   }
 }
 
+.my-toolbox-container {
+  background-color: #F0F0F0;
+  text-align: center;
+  padding: 30px 0px;
+}
 
+.toolbox-row {
+  display: flex;
+  padding: 20px 0px;
 
+  @include breakpoint($mq-medium) {
+    display: inline-block;
+  }
+}
+
+.toolbox-item {
+  margin: 0 auto;
+
+  img {
+    height: 40px;
+  }
+
+  p {
+    margin: 5px 0px;
+    font-size: 1em;
+  }
+
+  @include breakpoint($mq-medium) {
+    display: inline-block;
+    width: 20%;
+    margin: 10px;
+  }
+
+  @include breakpoint($mq-small) {
+    display: inline-block;
+    width: 40%;
+    margin: 10px;
+  }
+}
+
+.contact-container {
+  padding: 30px 15px;
+  text-align: center;
+}
+
+.contact {
+  max-width: 700px;
+  padding: 10px 0px;
+  text-align: left;
+}
+
+.resume {
+  display: inline;
+
+  img, a, {
+    display: inline;
+  }
+
+  a {
+    color: $body-text;
+    padding: 0px 15px;
+
+    @include breakpoint($mq-small) {
+      display: block;
+      padding: 5px 0px;
+    }
+  }
+
+  img {
+    height: 20px;
+    margin-right: 5px;
+  }
+}
 
 .social-icon {
   display: inline;

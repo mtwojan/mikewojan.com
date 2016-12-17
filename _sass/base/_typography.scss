@@ -10,6 +10,16 @@ body {
   }
 }
 
+a {
+  font-weight: 500;
+  text-decoration: none;
+  color: #5983B5;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
 h1 {
   font-family: 'Roboto', sans-serif;
   font-size: 1.8em;
