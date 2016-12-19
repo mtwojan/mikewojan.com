@@ -10,9 +10,9 @@
 
   button {
     margin-top: 20px;
-    padding: 10px 18px;
+    padding: 12px 18px;
     border: 0px;
-    border-radius: 10px;
+    border-radius: 5px;
     font-size: .9em;
     color: #fff;
     font-weight: 300;
@@ -65,7 +65,7 @@
 
 .process {
   display: flex;
-  padding: 20px 0px;
+  padding: 30px 0px;
 
   img {
     height: 120px;
@@ -98,7 +98,7 @@
 
 .toolbox-row {
   display: flex;
-  padding: 20px 0px;
+  padding: 30px 0px;
 
   @include breakpoint($mq-medium) {
     display: inline-block;
@@ -131,17 +131,17 @@
 }
 
 .contact-container {
-  padding: 30px 15px;
+  padding: 50px 15px;
   text-align: center;
 }
 
 .contact {
   max-width: 700px;
-  padding: 10px 0px;
+  padding-bottom: 20px;
   text-align: left;
 }
 
-.resume {
+.email-and-resume-container {
   display: inline;
 
   img, a, {
@@ -150,18 +150,38 @@
 
   a {
     color: $body-text;
-    padding: 0px 15px;
+    margin: 0px 15px;
 
     @include breakpoint($mq-small) {
       display: block;
-      padding: 5px 0px;
+      margin: 5px 0px;
     }
   }
 
+  button {
+    padding: 10px;
+    background-color: #fff;
+    border: 1px solid #49AA8B;
+    border-radius: 5px;
+    font-family: 'lato', sans-serif;
+    font-weight: 300;
+    font-size: .9em;
+  }
+
+  button:hover {
+    cursor: pointer;
+  }
+
   img {
-    height: 20px;
+    height: 15px;
     margin-right: 5px;
   }
+}
+
+.email-link, .resume-link {
+  padding: 10px;
+  border: 1px solid black;
+  border-radius: 5px;
 }
 
 .social-icon {

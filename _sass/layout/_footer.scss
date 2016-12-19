@@ -6,7 +6,23 @@ footer {
   color: #fff;
 
   p {
-    margin: 0px;
-    font-size: 1em;
+    margin: 20px 0px 0px;
+    font-size: .9em;
+  }
+}
+
+.social-icon-container {
+  margin: 10px 0px;
+}
+
+.social-icon {
+  display: inline;
+  margin: 10px;
+  @include breakpoint($mq-small) {
+    margin: 0px 5px;
+  }
+
+  img {
+    width: 40px;
   }
 }
