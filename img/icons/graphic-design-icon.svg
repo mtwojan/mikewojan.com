@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg width="121px" height="161px" viewBox="0 0 121 161" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 41.2 (35397) - http://www.bohemiancoding.com/sketch -->
+    <title>graphic design icon</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <path d="M53.375,89.4662069 L53.375,1.12148626 L3.27070294,90.1016248 C3.27070294,90.1016248 1.70343568,92.7800095 0.724161951,96.9218029 C-0.255111782,101.063596 -0.137919025,101.618695 0.724161951,105.551432 C4.33652677,122.030717 7.94889159,138.510002 10.2391724,148.958058 C11.7346685,155.780378 14.2023752,157.393206 14.2023752,157.393206 C14.2023752,157.393206 17.0808439,160.022487 24.4513361,160.008066 C31.8218282,159.993644 66.480447,159.925832 93.5686627,159.872831 C99.7483661,159.86074 102.095593,158.219191 104.871943,155.983931 C107.648293,153.748671 108.537436,147.821362 108.537436,147.821362 L117.885859,104.731906 C117.885859,104.731906 118.655147,100.846789 118.317467,97.942818 C117.851862,93.9387156 115.850374,90.8114152 115.850374,90.8114152 L65.625,0.989900309 L65.625,89.4662069 C70.0023248,91.698646 73,96.2492507 73,101.5 C73,108.955844 66.9558441,115 59.5,115 C52.0441559,115 46,108.955844 46,101.5 C46,96.2492507 48.9976752,91.698646 53.3749986,89.4662129 Z" id="path-1"></path>
+        <mask id="mask-2" maskContentUnits="userSpaceOnUse" maskUnits="objectBoundingBox" x="0" y="0" width="118.370203" height="159.018224" fill="white">
+            <use xlink:href="#path-1"></use>
+        </mask>
+    </defs>
+    <g id="Symbols" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="graphic-design-icon">
+            <g transform="translate(1.000000, 0.000000)">
+                <use id="Combined-Shape" stroke="#B6B6B6" mask="url(#mask-2)" stroke-width="10" xlink:href="#path-1"></use>
+                <circle id="Oval-6" fill="#5983B5" cx="59.5" cy="101.5" r="10.125"></circle>
+                <rect id="Rectangle-11" fill="#5983B5" x="57.25" y="0.989900309" width="4.5" height="93.0100997"></rect>
+            </g>
+        </g>
+    </g>
+</svg>

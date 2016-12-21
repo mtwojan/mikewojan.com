@@ -1,0 +1,77 @@
+footer {
+  text-align: center;
+  background-color: #343434;
+  margin: 20px auto 0px;
+  padding: 20px 0px;
+  color: #fff;
+
+  p {
+    margin: 20px 0px 0px;
+    font-size: .9em;
+  }
+}
+
+.social-icon-container {
+  margin: 10px 0px;
+}
+
+.social-icon {
+  margin: 10px;
+  display: inline-block;
+  width: 40px;
+  height: 40px;
+  border: 1px solid #fff;
+  border-radius: 50%;
+  position: relative;
+  &:hover {
+    transition: background-color 0.4s;
+  }
+
+  &.twitter {
+    border: 1px solid #4990E2;
+    &:hover {
+      background-color: #4990E2;
+    }
+  }
+
+  &.linkedin {
+    border: 1px solid #259682;
+    &:hover {
+      background-color: #259682;
+    }
+  }
+
+  &.pinterest {
+    border: 1px solid #E75062;
+    &:hover {
+      background-color: #E75062;
+    }
+  }
+
+  &.instagram {
+    border: 1px solid #9D6AC9;
+    &:hover {
+      background-color: #9D6AC9;
+    }
+  }
+
+  &.googleplus {
+    border: 1px solid #D54545;
+    &:hover {
+      background-color: #D54545;
+    }
+  }
+
+  @include breakpoint($mq-small) {
+    margin: 0px 5px;
+  }
+
+  svg {
+    width: 18px;
+    height: 18px;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    fill: #fff;
+    position: absolute;
+  }
+}

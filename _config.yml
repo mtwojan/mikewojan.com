@@ -29,6 +29,6 @@ exclude:
   - Gemfile.lock
 
 collections:
-  projects:
+  portfolio:
     output: true
-    permalink: /projects/:title/
+    permalink: /portfolio/:title/
