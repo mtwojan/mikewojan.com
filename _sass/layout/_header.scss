@@ -20,6 +20,11 @@ header {
     font-size: .9em;
   }
 
+  a {
+    text-decoration: none;
+    color: #fff;
+  }
+
   @include breakpoint($mq-small) {
     display: block;
     text-align: center;
@@ -31,9 +36,6 @@ header {
   @include breakpoint($mq-small) {
     font-size: 1.2em;
   }
-}
-
-.navbar-branding {
 
 }
 
