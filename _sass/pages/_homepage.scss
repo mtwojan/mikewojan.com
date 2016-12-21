@@ -152,22 +152,3 @@
     vertical-align: text-top;
   }
 }
-
-.email-link, .resume-link {
-  padding: 10px;
-  border: 1px solid black;
-  border-radius: 5px;
-}
-
-.social-icon {
-  display: inline;
-  margin: 0px 10px;
-  @include breakpoint($mq-small) {
-    margin: 0px 5px;
-  }
-  img {
-    @include breakpoint($mq-small) {
-      width: 40px;
-    }
-  }
-}
