@@ -44,10 +44,6 @@
   }
 }
 
-.intro-paragraph {
-
-}
-
 .process-container {
   text-align: center;
   padding: 30px 0px;
@@ -125,7 +121,7 @@
 
 .contact {
   max-width: 700px;
-  padding-bottom: 20px;
+  padding: 10px 0px 40px;
   text-align: left;
 }
 
@@ -135,7 +131,6 @@
     display: inline;
   }
   a {
-    color: $body-text;
     margin: 0px 15px;
     @include breakpoint($mq-small) {
       display: block;
@@ -154,9 +149,12 @@
   button:hover {
     cursor: pointer;
   }
-  img {
-    height: 15px;
+  svg {
+    vertical-align: bottom;
     margin-right: 5px;
-    vertical-align: text-top;
+    width: 22px;
+    height: 22px;
+    fill: #fff;
+    top: 5px;
   }
 }
