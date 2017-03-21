@@ -36,6 +36,10 @@
   }
 }
 
+.card:hover {
+  border: 1px solid #a9a9a9;
+}
+
 .card-image {
   text-align: center;
   background-color: #f0f0f0;
@@ -49,4 +53,12 @@
   p {
     margin: 0px;
   }
+}
+
+h3.personal-projects {
+  text-align: center;
+}
+
+img.personal-project-image {
+  margin: 10px 0px 0px;
 }
