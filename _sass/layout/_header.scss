@@ -9,41 +9,53 @@ header {
   -ms-flex-align: center;
           align-items: center;
   padding: 0px 20px;
-  background-color: #235289;
-  color: #fff;
+  border-bottom: 1px solid #E3E3E3;
 
-  ul {
-    @include breakpoint($mq-small) {
-      padding: 0px;
-      margin: 20px 20px 0px;
-      font-size: 1.3em;
-    }
+  @include breakpoint($mq-small) {
+    display: block;
+    text-align: center;
+    padding: 10px 0px 2px;
   }
 
+}
+
+.navbar-links {
+  margin: 0;
+  padding: 0px 0px 2px;
+  @include breakpoint($mq-small) {
+    padding: 0px;
+    margin: 20px 20px 0px;
+    font-size: 1.3em;
+  }
   li {
-    display: inline;
-    margin: 0px 15px;
+    display: inline-block;
     font-size: .9em;
   }
 
   a {
     text-decoration: none;
-    color: #fff;
-  }
-
-  @include breakpoint($mq-small) {
     display: block;
-    text-align: center;
-    padding: 10px 0px;
+    padding: 1em;
+    margin-bottom: -2px;
+    border-bottom: 2px solid transparent;
+    &:hover,
+    &.active {
+      border-bottom: 2px solid $blue;
+      text-decoration: none;
+    }
+
+    @include breakpoint($mq-small) {
+      padding: .7em;
+    }
   }
 }
 
 .navbar-branding {
+  a:hover {
+    text-decoration: none;
+  }
   @include breakpoint($mq-small) {
     font-size: 1.2em;
   }
 
-}
-
-.navbar-links{
 }
