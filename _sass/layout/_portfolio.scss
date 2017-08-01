@@ -25,6 +25,7 @@
   margin: 15px;
   text-align: left;
   border: 1px solid #D9D9D9;
+  border-radius: 2px;
 
   @include breakpoint($mq-medium) {
     max-width: 95%;
@@ -37,7 +38,13 @@
 }
 
 .card:hover {
-  border: 1px solid #a9a9a9;
+  border: 1px solid #BABABA;
+  .card-image img {
+    -moz-transform: scale(1.1);
+    -webkit-transform: scale(1.1);
+    transform: scale(1.02);
+    transition: all 0.2s;
+  }
 }
 
 .card-image {
