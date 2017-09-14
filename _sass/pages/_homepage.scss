@@ -89,6 +89,10 @@
   justify-content: center;
   padding: 20px 0px;
   margin: 0 auto;
+  a {
+    color: $body-text;
+    text-decoration: none;
+  }
   .community-item{
     margin: 10px 15px;
     padding: 10px 20px 10px 10px;
@@ -124,6 +128,17 @@
         padding-top: 5px;
       }
     }
+  }
+}
+
+.community-item:hover{
+  border: 1px solid #BABABA;
+  cursor: pointer;
+  .org-logo-and-info .org-logo img{
+    -moz-transform: scale(1.2);
+    -webkit-transform: scale(1.2);
+    transform: scale(1.2);
+    transition: all 0.2s;
   }
 }
 
