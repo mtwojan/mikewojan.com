@@ -65,6 +65,12 @@ header {
   width: 45px;
 }
 
+.brand {
+  @include breakpoint($mq-small) {
+    display: none;
+  }
+}
+
 .brand p {
   margin: 0px;
   font-family: 'lato', sans-serif;
