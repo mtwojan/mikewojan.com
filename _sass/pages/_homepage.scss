@@ -7,6 +7,11 @@
   text-align: center;
   background-color: #F0F0F0;
   padding: 50px 0px;
+  background-image:
+    linear-gradient(rgba(67, 117, 175, 0.7), rgba(73, 161, 170, 0.7)),
+    url('/img/wireframes2.jpg');
+  background-size: cover;
+  color: #ffffff;
 }
 
 .intro-content {
@@ -40,7 +45,7 @@
 
 .intro-image {
   img{
-    width: 100px;
+    width: 90px;
   }
 }
 
@@ -135,9 +140,9 @@
   border: 1px solid #BABABA;
   cursor: pointer;
   .org-logo-and-info .org-logo img{
-    -moz-transform: scale(1.2);
-    -webkit-transform: scale(1.2);
-    transform: scale(1.2);
+    -moz-transform: scale(1.1);
+    -webkit-transform: scale(1.1);
+    transform: scale(1.1);
     transition: all 0.2s;
   }
 }
