@@ -42,7 +42,7 @@
 
 @media screen and (min-width: 60em) {
     .card {
-        max-width: calc(33% - 1em);
+        max-width: calc(32% - .8em);
     }
 }
 
@@ -74,6 +74,12 @@
   p {
     margin: 0px;
   }
+}
+
+h2.portfolio-project-heading{
+  margin: 10px;
+  font-size: 1.2em;
+  font-weight: 300;
 }
 
 h3.personal-projects {
