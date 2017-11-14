@@ -7,6 +7,11 @@
   text-align: center;
   background-color: #F0F0F0;
   padding: 50px 0px;
+  background-image:
+    linear-gradient(rgba(67, 117, 175, 0.7), rgba(73, 161, 170, 0.7)),
+    url('/img/wireframes2.jpg');
+  background-size: cover;
+  color: #ffffff;
 }
 
 .intro-content {
@@ -40,7 +45,7 @@
 
 .intro-image {
   img{
-    width: 100px;
+    width: 90px;
   }
 }
 
@@ -77,40 +82,68 @@
   }
 }
 
-.my-toolbox-container {
-  background-color: #F0F0F0;
+.community-container{
+  padding: 30px 0px;
   text-align: center;
-  padding: 30px 0px;
+  background-color: #F0F0F0;
 }
 
-.toolbox-row {
-  display: -webkit-box;
-  display: -ms-flexbox;
+.community-list{
   display: flex;
-  padding: 30px 0px;
-  @include breakpoint($mq-medium) {
-    display: inline-block;
+  flex-wrap: wrap;
+  justify-content: center;
+  padding: 20px 0px;
+  margin: 0 auto;
+  a {
+    color: $body-text;
+    text-decoration: none;
+  }
+  .community-item{
+    margin: 10px 15px;
+    padding: 10px 20px 10px 10px;
+    box-sizing: border-box;
+    list-style: none;
+    border: 1px solid #cacaca;
+    border-radius: 4px;
+    background-color: #ffffff;
+    @include breakpoint($mq-small) {
+      width: 100%;
+      margin-top: 5px;
+    }
+    .org-logo-and-info{
+      display: flex;
+      align-items: center;
+    }
+    .org-logo{
+      border-right: 1px solid #cacaca;
+      margin-right: 10px;
+      padding-right: 5px;
+      img{
+        max-height: 50px;
+      }
+    }
+    .org-info{
+      text-align: left;
+      display: block;
+      span{
+        display: block;
+      }
+      .org-role{
+        font-weight: 300;
+        padding-top: 5px;
+      }
+    }
   }
 }
 
-.toolbox-item {
-  margin: 0 auto;
-  img {
-    height: 40px;
-  }
-  p {
-    margin: 5px 0px;
-    font-size: 1em;
-  }
-  @include breakpoint($mq-medium) {
-    display: inline-block;
-    width: 20%;
-    margin: 10px;
-  }
-  @include breakpoint($mq-small) {
-    display: inline-block;
-    width: 40%;
-    margin: 10px;
+.community-item:hover{
+  border: 1px solid #BABABA;
+  cursor: pointer;
+  .org-logo-and-info .org-logo img{
+    -moz-transform: scale(1.1);
+    -webkit-transform: scale(1.1);
+    transform: scale(1.1);
+    transition: all 0.2s;
   }
 }
 
