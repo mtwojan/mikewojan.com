@@ -33,13 +33,14 @@ header {
 
   a {
     text-decoration: none;
+    color: $slate;
     display: block;
     padding: 1em;
     margin-bottom: -2px;
     border-bottom: 2px solid transparent;
     &:hover,
     &.active {
-      border-bottom: 2px solid $blue;
+      border-bottom: 2px solid $slate;
       text-decoration: none;
     }
 

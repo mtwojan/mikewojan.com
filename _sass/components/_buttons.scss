@@ -7,10 +7,10 @@
   font-size: 1em;
   color: #fff;
   font-weight: 300;
-  background-color: #49AA8B;
+  background-color: $accent;
 
   &:hover {
     text-decoration: none;
-    background-color: #6ABDA2;
+    background-color: $accent-hover;
   }
 }
