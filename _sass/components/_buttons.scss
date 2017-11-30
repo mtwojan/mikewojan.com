@@ -14,3 +14,15 @@
     background-color: $accent-hover;
   }
 }
+
+.btn-secondary {
+  background-color: inherit;
+  border: 1px solid $accent;
+  color: $accent;
+  svg {
+    fill: $accent;
+  }
+  &:hover {
+    background-color: #FAFAFA;
+  }
+}
